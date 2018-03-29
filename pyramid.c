@@ -5,6 +5,8 @@ Program to print half pyramid using *
 * * *
 * * * *
 * * * * *
+* * * * * *
+* * * * * * *
 */
 
 
@@ -14,8 +16,10 @@ int main()
 {
     int i, j, rows;
 
-    printf("Enter number of rows: ");
-    scanf("%d",&rows);
+    //printf("Enter number of rows: ");
+    //scanf("%d",&rows);
+	
+	rows = 7;
 
     for(i=1; i<=rows; ++i)
     {
